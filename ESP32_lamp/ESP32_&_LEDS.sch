@@ -13,23 +13,19 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Wire Wire Line
-	3250 2900 3500 2900
 $Comp
 L power:GND #PWR?
 U 1 1 5F189CFB
-P 3700 2900
+P 4050 2900
 AR Path="/5F189CFB" Ref="#PWR?"  Part="1" 
 AR Path="/5F10C517/5F189CFB" Ref="#PWR013"  Part="1" 
-F 0 "#PWR013" H 3700 2650 50  0001 C CNN
-F 1 "GND" V 3705 2772 50  0000 R CNN
-F 2 "" H 3700 2900 50  0001 C CNN
-F 3 "" H 3700 2900 50  0001 C CNN
-	1    3700 2900
+F 0 "#PWR013" H 4050 2650 50  0001 C CNN
+F 1 "GND" V 4055 2772 50  0000 R CNN
+F 2 "" H 4050 2900 50  0001 C CNN
+F 3 "" H 4050 2900 50  0001 C CNN
+	1    4050 2900
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	2650 2900 2600 2900
 $Comp
 L Device:CircuitBreaker_1P_US CB?
 U 1 1 5F189D02
@@ -106,7 +102,7 @@ P 1650 2550
 AR Path="/5F189D96" Ref="C?"  Part="1" 
 AR Path="/5F10C517/5F189D96" Ref="C11"  Part="1" 
 F 0 "C11" V 1750 2450 50  0000 C CNN
-F 1 "0.1u" V 1750 2650 50  0000 C CNN
+F 1 "100nF" V 1750 2650 50  0000 C CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric" H 1650 2550 50  0001 C CNN
 F 3 "~" H 1650 2550 50  0001 C CNN
 	1    1650 2550
@@ -198,7 +194,7 @@ U 1 1 5F1B83F3
 P 3950 3150
 F 0 "J4" H 4030 3192 50  0000 L CNN
 F 1 "Conn_01x03" H 4030 3101 50  0000 L CNN
-F 2 "" H 3950 3150 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical_SMD_Pin1Left" H 3950 3150 50  0001 C CNN
 F 3 "~" H 3950 3150 50  0001 C CNN
 	1    3950 3150
 	1    0    0    -1  
@@ -312,17 +308,6 @@ MTDO
 Text GLabel 2150 6800 2    50   Input ~ 0
 MTDI
 NoConn ~ 2150 6900
-$Comp
-L Connector_Generic:Conn_01x02 J3
-U 1 1 5F1D49BB
-P 3850 2350
-F 0 "J3" H 3930 2342 50  0000 L CNN
-F 1 "Conn_01x02" H 3930 2251 50  0000 L CNN
-F 2 "" H 3850 2350 50  0001 C CNN
-F 3 "~" H 3850 2350 50  0001 C CNN
-	1    3850 2350
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1750 2250 1900 2250
 Wire Wire Line
@@ -350,20 +335,6 @@ Wire Wire Line
 Wire Wire Line
 	1450 2550 1450 2400
 Connection ~ 1450 2400
-Wire Wire Line
-	2600 2350 2600 2900
-Wire Wire Line
-	2600 2350 3650 2350
-Connection ~ 2600 2900
-Wire Wire Line
-	2600 2900 2500 2900
-Wire Wire Line
-	3650 2450 3500 2450
-Wire Wire Line
-	3500 2450 3500 2900
-Connection ~ 3500 2900
-Wire Wire Line
-	3500 2900 3700 2900
 Wire Wire Line
 	2500 3000 3600 3000
 Text GLabel 4700 6400 3    50   Input ~ 0
@@ -410,4 +381,75 @@ Text GLabel 5000 5800 1    50   Input ~ 0
 3V3
 Text GLabel 1900 2100 1    50   Input ~ 0
 3V3
+Wire Wire Line
+	2500 5000 2750 5000
+Wire Wire Line
+	2500 4900 2750 4900
+Wire Wire Line
+	2500 4600 2750 4600
+Wire Wire Line
+	2500 4700 2750 4700
+Wire Wire Line
+	2500 4800 2750 4800
+Text GLabel 2750 4900 2    50   Output ~ 0
+LED_B3
+Text GLabel 2750 5000 2    50   Output ~ 0
+LED_R3
+Text GLabel 2750 4600 2    50   Output ~ 0
+LED_G3
+Text GLabel 2750 4700 2    50   Output ~ 0
+LED_B2
+Text GLabel 2750 4800 2    50   Output ~ 0
+LED_R2
+Wire Wire Line
+	2500 3300 2750 3300
+Text GLabel 2750 3300 2    50   Output ~ 0
+LED_G2
+Wire Wire Line
+	2500 3900 2750 3900
+Text GLabel 2750 3900 2    50   Output ~ 0
+LED_B1
+Wire Wire Line
+	2500 4000 2750 4000
+Text GLabel 2750 4000 2    50   Output ~ 0
+LED_R1
+Wire Wire Line
+	2500 4100 2750 4100
+Text GLabel 2750 4100 2    50   Output ~ 0
+LED_G1
+Text GLabel 2850 4300 2    50   Output ~ 0
+SDA
+Text GLabel 2850 4200 2    50   Output ~ 0
+SCL
+Wire Wire Line
+	2500 4200 2850 4200
+Wire Wire Line
+	2500 4300 2850 4300
+Wire Wire Line
+	2500 2900 2650 2900
+Wire Wire Line
+	3250 2900 3450 2900
+$Comp
+L Device:R R?
+U 1 1 5F24588B
+P 3600 2900
+AR Path="/5F24588B" Ref="R?"  Part="1" 
+AR Path="/5F10C517/5F24588B" Ref="R6"  Part="1" 
+F 0 "R6" V 3393 2900 50  0000 C CNN
+F 1 "10k" V 3484 2900 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 3530 2900 50  0001 C CNN
+F 3 "~" H 3600 2900 50  0001 C CNN
+	1    3600 2900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3750 2900 4050 2900
+Wire Wire Line
+	2500 4400 2750 4400
+Wire Wire Line
+	2500 4500 2750 4500
+Text GLabel 2750 4400 2    50   Input ~ 0
+INT2
+Text GLabel 2750 4500 2    50   Input ~ 0
+INT1
 $EndSCHEMATC
