@@ -426,7 +426,7 @@ Wire Wire Line
 Wire Wire Line
 	2500 4300 2850 4300
 Wire Wire Line
-	2500 2900 2650 2900
+	2500 2900 2550 2900
 Wire Wire Line
 	3250 2900 3450 2900
 $Comp
@@ -452,4 +452,89 @@ Text GLabel 2750 4400 2    50   Input ~ 0
 INT2
 Text GLabel 2750 4500 2    50   Input ~ 0
 INT1
+$Comp
+L Device:R R?
+U 1 1 5F46936E
+P 5000 2100
+AR Path="/5F46936E" Ref="R?"  Part="1" 
+AR Path="/5F10C517/5F46936E" Ref="R7"  Part="1" 
+F 0 "R7" V 4793 2100 50  0000 C CNN
+F 1 "10k" V 4884 2100 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 4930 2100 50  0001 C CNN
+F 3 "~" H 5000 2100 50  0001 C CNN
+	1    5000 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 2250 5000 2400
+Wire Wire Line
+	5000 2400 2550 2400
+Wire Wire Line
+	2550 2400 2550 2900
+Connection ~ 5000 2400
+Connection ~ 2550 2900
+Wire Wire Line
+	2550 2900 2650 2900
+Text GLabel 5000 1850 1    50   Input ~ 0
+3V3
+Wire Wire Line
+	5000 1850 5000 1950
+$Comp
+L power:GND #PWR?
+U 1 1 5F470D31
+P 5550 2700
+AR Path="/5F470D31" Ref="#PWR?"  Part="1" 
+AR Path="/5F10C517/5F470D31" Ref="#PWR0104"  Part="1" 
+F 0 "#PWR0104" H 5550 2450 50  0001 C CNN
+F 1 "GND" V 5555 2572 50  0000 R CNN
+F 2 "" H 5550 2700 50  0001 C CNN
+F 3 "" H 5550 2700 50  0001 C CNN
+	1    5550 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5F472DB2
+P 5000 2650
+AR Path="/5F472DB2" Ref="C?"  Part="1" 
+AR Path="/5F10C517/5F472DB2" Ref="C16"  Part="1" 
+F 0 "C16" V 5100 2550 50  0000 C CNN
+F 1 "100nF" V 5100 2750 50  0000 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 5000 2650 50  0001 C CNN
+F 3 "~" H 5000 2650 50  0001 C CNN
+	1    5000 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F4737E0
+P 5000 2900
+AR Path="/5F4737E0" Ref="#PWR?"  Part="1" 
+AR Path="/5F10C517/5F4737E0" Ref="#PWR0105"  Part="1" 
+F 0 "#PWR0105" H 5000 2650 50  0001 C CNN
+F 1 "GND" V 5005 2772 50  0000 R CNN
+F 2 "" H 5000 2900 50  0001 C CNN
+F 3 "" H 5000 2900 50  0001 C CNN
+	1    5000 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 2900 5000 2750
+Wire Wire Line
+	5000 2550 5000 2400
+$Comp
+L Switch:SW_Push SW1
+U 1 1 5F468DD6
+P 5350 2400
+F 0 "SW1" H 5350 2685 50  0000 C CNN
+F 1 "SW_Push" H 5350 2594 50  0000 C CNN
+F 2 "Button_Switch_SMD:Panasonic_EVQPUJ_EVQPUA" H 5350 2600 50  0001 C CNN
+F 3 "~" H 5350 2600 50  0001 C CNN
+	1    5350 2400
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5150 2400 5000 2400
+Wire Wire Line
+	5550 2700 5550 2400
 $EndSCHEMATC
