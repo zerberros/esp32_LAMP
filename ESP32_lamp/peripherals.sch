@@ -668,7 +668,7 @@ AR Path="/5F10C517/5F23FD90" Ref="U?"  Part="1"
 AR Path="/5F289DCA/5F23FD90" Ref="LED3"  Part="1" 
 F 0 "LED3" V 9529 2228 50  0000 L CNN
 F 1 "AAAF5051-05" V 9620 2228 50  0000 L CNN
-F 2 "ESP32_lamp:kinbright-AAAF5051-05" H 9550 1400 50  0001 C CNN
+F 2 "ESP32_lamp:kinbright-AAAF5051-05_MOD" H 9550 1400 50  0001 C CNN
 F 3 "http://www.kingbrightusa.com/images/catalog/SPEC/AAAF5051-05.pdf" H 9600 1900 50  0001 C CNN
 	1    9600 1900
 	0    1    1    0   
@@ -682,7 +682,7 @@ AR Path="/5F10C517/5F23FD96" Ref="U?"  Part="1"
 AR Path="/5F289DCA/5F23FD96" Ref="LED2"  Part="1" 
 F 0 "LED2" V 6779 2178 50  0000 L CNN
 F 1 "AAAF5051-05" V 6870 2178 50  0000 L CNN
-F 2 "ESP32_lamp:kinbright-AAAF5051-05" H 6800 1350 50  0001 C CNN
+F 2 "ESP32_lamp:kinbright-AAAF5051-05_MOD" H 6800 1350 50  0001 C CNN
 F 3 "http://www.kingbrightusa.com/images/catalog/SPEC/AAAF5051-05.pdf" H 6850 1850 50  0001 C CNN
 	1    6850 1850
 	0    1    1    0   
@@ -696,7 +696,7 @@ AR Path="/5F10C517/5F23FD9C" Ref="U?"  Part="1"
 AR Path="/5F289DCA/5F23FD9C" Ref="LED1"  Part="1" 
 F 0 "LED1" V 3529 2528 50  0000 L CNN
 F 1 "AAAF5051-05" V 3620 2528 50  0000 L CNN
-F 2 "ESP32_lamp:kinbright-AAAF5051-05" H 3550 1700 50  0001 C CNN
+F 2 "ESP32_lamp:kinbright-AAAF5051-05_MOD" H 3550 1700 50  0001 C CNN
 F 3 "http://www.kingbrightusa.com/images/catalog/SPEC/AAAF5051-05.pdf" H 3600 2200 50  0001 C CNN
 	1    3600 2200
 	0    1    1    0   

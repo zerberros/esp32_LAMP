@@ -1,4 +1,4 @@
-update=mar 14 jul 2020 19:14:51
+update=sáb 22 ago 2020 10:33:50
 version=1
 last_client=kicad
 [general]
@@ -247,6 +247,28 @@ dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
 [pcbnew/Netclasses/1]
+Name=cerocuatro
+Clearance=0.2
+TrackWidth=0.4
+ViaDiameter=0.8
+ViaDrill=0.4
+uViaDiameter=0.3
+uViaDrill=0.1
+dPairWidth=0.2
+dPairGap=0.25
+dPairViaGap=0.25
+[pcbnew/Netclasses/2]
+Name=cerotresmm
+Clearance=0.2
+TrackWidth=0.3
+ViaDiameter=0.8
+ViaDrill=0.4
+uViaDiameter=0.3
+uViaDrill=0.1
+dPairWidth=0.2
+dPairGap=0.25
+dPairViaGap=0.25
+[pcbnew/Netclasses/3]
 Name=mediomm
 Clearance=0.2
 TrackWidth=0.5
