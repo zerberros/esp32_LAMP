@@ -133,6 +133,7 @@ F 0 "U2" H 1450 5450 50  0000 C CNN
 F 1 "ESP32-WROOM-32D" H 1800 4400 50  0000 C CNN
 F 2 "RF_Module:ESP32-WROOM-32" H 1900 2600 50  0001 C CNN
 F 3 "https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32d_esp32-wroom-32u_datasheet_en.pdf" H 1600 4150 50  0001 C CNN
+F 4 "ESP32-WROOM-32D" H 1900 4100 50  0001 C CNN "MPN"
 	1    1900 4100
 	1    0    0    -1  
 $EndComp
@@ -236,7 +237,7 @@ F 0 "J2" H 1650 7117 50  0000 C CNN
 F 1 "Conn_02x05_Odd_Even" H 1650 7026 50  0000 C CNN
 F 2 "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical_SMD" H 1600 6700 50  0001 C CNN
 F 3 "~" H 1600 6700 50  0001 C CNN
-F 4 "" H 1600 6700 50  0001 C CNN "MPN"
+F 4 "M50-3610542R" H 1600 6700 50  0001 C CNN "MPN"
 	1    1600 6700
 	1    0    0    -1  
 $EndComp
@@ -530,6 +531,7 @@ F 0 "SW1" H 5350 2685 50  0000 C CNN
 F 1 "SW_Push" H 5350 2594 50  0000 C CNN
 F 2 "Button_Switch_SMD:Panasonic_EVQPUJ_EVQPUA" H 5350 2600 50  0001 C CNN
 F 3 "~" H 5350 2600 50  0001 C CNN
+F 4 "EVQ-PUJ02K" H 5350 2400 50  0001 C CNN "MPN"
 	1    5350 2400
 	-1   0    0    -1  
 $EndComp

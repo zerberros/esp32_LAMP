@@ -27,3 +27,7 @@ fp-info-cache
 
 # GERBER files
 *.gbr
+
+# FreeCAD files
+*.FCStd
+*.FCStd1

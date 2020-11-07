@@ -70,6 +70,7 @@ F 0 "L1" V 7190 3300 50  0000 C CNN
 F 1 "2.2uH, 11.4mΩ" V 7099 3300 50  0000 C CNN
 F 2 "Inductor_SMD:L_Taiyo-Yuden_MD-5050" H 7000 3300 50  0001 C CNN
 F 3 "~" H 7000 3300 50  0001 C CNN
+F 4 "TYS50402R2N-10 " H 7000 3300 50  0001 C CNN "MPN"
 	1    7000 3300
 	0    -1   -1   0   
 $EndComp
@@ -319,9 +320,11 @@ $EndComp
 Wire Wire Line
 	5200 4200 5200 4050
 $Comp
-L Connector:USB_B_Micro J1
+L ESP32_lamp-rescue:USB_B_Micro-Connector J1
 U 1 1 5F0D553A
 P 2550 3600
+AR Path="/5F0D553A" Ref="J1"  Part="1" 
+AR Path="/5F0ACF9A/5F0D553A" Ref="J1"  Part="1" 
 F 0 "J1" H 2607 4067 50  0000 C CNN
 F 1 "USB_B_Micro" H 2607 3976 50  0000 C CNN
 F 2 "Connector_USB:USB_Micro-AB_Molex_47590-0001" H 2700 3550 50  0001 C CNN
@@ -363,6 +366,7 @@ F 0 "U1" H 5700 3967 50  0000 C CNN
 F 1 "LMR33630BDDA" H 5700 3876 50  0000 C CNN
 F 2 "Package_SO:Texas_HSOP-8-1EP_3.9x4.9mm_P1.27mm_ThermalVias" H 5700 2700 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lmr33630.pdf" H 5700 3400 50  0001 C CNN
+F 4 "LMR33630BDDAR" H 5700 3500 50  0001 C CNN "MPN"
 	1    5700 3500
 	1    0    0    -1  
 $EndComp

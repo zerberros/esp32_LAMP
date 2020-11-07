@@ -50,6 +50,7 @@ F 0 "H2" H 2550 7396 50  0000 L CNN
 F 1 "MountingHole" H 2550 7305 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3_ISO7380" H 2450 7350 50  0001 C CNN
 F 3 "~" H 2450 7350 50  0001 C CNN
+F 4 "SJ-5003 (BLACK)" H 2450 7350 50  0001 C CNN "MPN"
 	1    2450 7350
 	1    0    0    -1  
 $EndComp
@@ -61,6 +62,7 @@ F 0 "H4" H 3100 7396 50  0000 L CNN
 F 1 "MountingHole" H 3100 7305 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3_ISO7380" H 3000 7350 50  0001 C CNN
 F 3 "~" H 3000 7350 50  0001 C CNN
+F 4 "SJ-5003 (BLACK)" H 3000 7350 50  0001 C CNN "MPN"
 	1    3000 7350
 	1    0    0    -1  
 $EndComp
@@ -72,6 +74,7 @@ F 0 "H1" H 2550 7146 50  0000 L CNN
 F 1 "MountingHole" H 2550 7055 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3_ISO7380" H 2450 7100 50  0001 C CNN
 F 3 "~" H 2450 7100 50  0001 C CNN
+F 4 "SJ-5003 (BLACK)" H 2450 7100 50  0001 C CNN "MPN"
 	1    2450 7100
 	1    0    0    -1  
 $EndComp
@@ -83,6 +86,7 @@ F 0 "H3" H 3100 7146 50  0000 L CNN
 F 1 "MountingHole" H 3100 7055 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3_ISO7380" H 3000 7100 50  0001 C CNN
 F 3 "~" H 3000 7100 50  0001 C CNN
+F 4 "SJ-5003 (BLACK)" H 3000 7100 50  0001 C CNN "MPN"
 	1    3000 7100
 	1    0    0    -1  
 $EndComp
