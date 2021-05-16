@@ -1,3 +1,3 @@
 [submodule "0.0.0"]
-	path = 0.0.0
+	path = firmware/0.0.0
 	url = https://github.com/zerberros/esp32Lamp_firmware
